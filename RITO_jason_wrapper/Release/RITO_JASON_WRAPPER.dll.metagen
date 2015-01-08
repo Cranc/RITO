@@ -1,0 +1,19 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly RITO_JASON_WRAPPER, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class RITO_JASON_WRAPPER.MyJasonWrapper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetSummonerIdWrapper(): PrivateScope, Public, HideBySig
+    SetSummonerNameWrapper(String): PrivateScope, Public, HideBySig
+    GetSummonerNameWrapper(): PrivateScope, Public, HideBySig
+    GetProfileIconIdWrapper(): PrivateScope, Public, HideBySig
+    GetResponseErrorWrapper(): PrivateScope, Public, HideBySig
